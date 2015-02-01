@@ -1,0 +1,9 @@
+{
+  "run_list": [
+	"recipe[forever]",
+	"recipe[tomatoes]"  
+],
+  "automatic": {
+    "ipaddress": "198.199.112.66"
+  }
+}
