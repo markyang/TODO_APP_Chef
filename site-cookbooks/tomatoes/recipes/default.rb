@@ -17,7 +17,7 @@ nodejs_npm '' do
   user 'random'
 end
 
-execute 'forever server.js' do
+execute 'forever start server.js' do
   cwd '/home/random/TODO'
-  user 'random'
+  user 'root'
 end
